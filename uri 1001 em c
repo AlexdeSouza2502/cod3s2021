@@ -1,0 +1,14 @@
+#include <stdio.h>
+ int main()
+//***************cod de A.S.S.J************//
+{
+    int A,B,X;
+    
+    scanf("%d%d",&A,&B);
+   
+    X=A+B;
+    
+    printf("X = %d\n",X);
+
+    return 0;
+}
