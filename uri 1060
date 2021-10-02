@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main () {
+
+float a;
+int i, cont = 0;
+//variavel inteira//
+for (i = 0; i < 6; i++){
+
+  scanf("%f", &a);
+  if (a > 0){
+//if representando condição sendo assim se a for maior que 0//
+    cont++;
+    
+  }
+}
+printf("%d valores positivos\n", cont);
+
+}
